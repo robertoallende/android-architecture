@@ -19,7 +19,6 @@ package com.example.android.architecture.blueprints.todoapp.tasks;
 import android.os.Bundle;
 import android.support.annotation.VisibleForTesting;
 import android.support.test.espresso.IdlingResource;
-import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -44,8 +43,7 @@ public class TasksActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ActionBar ab = getSupportActionBar();
-        ab.setHomeAsUpIndicator(R.drawable.ic_menu);
-        ab.setDisplayHomeAsUpEnabled(true);
+        ab.setDisplayHomeAsUpEnabled(false);
 
         TasksFragment tasksFragment =
                 (TasksFragment) getSupportFragmentManager().findFragmentById(R.id.contentFrame);

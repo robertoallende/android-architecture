@@ -43,6 +43,7 @@ import com.example.android.architecture.blueprints.todoapp.R;
 import com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskActivity;
 import com.example.android.architecture.blueprints.todoapp.data.Task;
 import com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailActivity;
+import com.example.android.architecture.blueprints.todoapp.util.ScrollChildSwipeRefreshLayout;
 
 import java.util.ArrayList;
 import java.util.List;
