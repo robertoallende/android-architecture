@@ -104,7 +104,7 @@ public class TasksFragment extends Fragment implements TasksContract.View {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.tasks_frag, container, false);
+        View root = inflater.inflate(R.layout.tasks_fragment, container, false);
 
         // Set up tasks view
         ListView listView = (ListView) root.findViewById(R.id.tasks_list);
